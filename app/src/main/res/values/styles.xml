@@ -1,0 +1,76 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+
+    -->
+    <style name="AppBaseTheme"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@mipmap/background</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+
+
+
+
+    <!--&lt;!&ndash; MaterialDrawer specific values &ndash;&gt;-->
+    <!--<item name="material_drawer_window_background">@color/material_drawer_window_background</item>-->
+    <!--<item name="material_drawer_background">@color/material_drawer_background</item>-->
+    <!--<item name="material_drawer_icons">@color/material_drawer_icons</item>-->
+    <!--<item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>-->
+    <!--<item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>-->
+    <!--<item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>-->
+    <!--<item name="material_drawer_divider">@color/material_drawer_divider</item>-->
+    <!--<item name="material_drawer_selected">@color/material_drawer_selected</item>-->
+    <!--<item name="material_drawer_selected_text">@color/material_drawer_selected_text</item>-->
+    <!--<item name="material_drawer_header_selection_text">@color/material_drawer_icons</item>-->
+
+    <style name="fragment_top_caption_style">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/general_text_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <style name="send_button" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@mipmap/background</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="fragment_style">
+        <item name="android:background">@mipmap/background</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+
+    <style name="dataItemCaption" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/general_text_color</item>
+        <item name="android:textSize">55sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dataItemValue" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/general_text_color</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">italic|normal</item>
+    </style>
+
+</resources>

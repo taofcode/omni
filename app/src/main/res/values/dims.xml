@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="login_element_text_size">12sp</dimen>
+    <dimen name="login_margin">10dp</dimen>
+    <dimen name="login_header_height">55dp</dimen>
+
+    <integer name="login_top_weight">1</integer>
+
+    <dimen name="action_bar_spinner_text_size">12sp</dimen>
+    <dimen name="action_bar_button_padding">5dp</dimen>
+
+    <!-- atms/branches -->
+    <dimen name="atms_branches_spinner_padding_vertical">14dp</dimen>
+    <dimen name="atms_branches_spinner_padding_horizontal">20dp</dimen>
+    <dimen name="atms_branches_edit_text_margin_vertical">20dp</dimen>
+    <dimen name="atms_spinner_text_size">14sp</dimen>
+    <dimen name="atms_branches_list_item_padding_horizontal">10dp</dimen>
+
+    <!-- Self Registration -->
+    <dimen name="self_registration_text_margins_horizontal">50dp</dimen>
+
+    <!-- Error dialog -->
+    <dimen name="confirm_dialog_title_padding">15dp</dimen>
+    <dimen name="confirm_dialog_title_padding_left">20dp</dimen>
+    <dimen name="drawable_padding_left">10dp</dimen>
+    <dimen name="confirm_dialog_text_padding_left">10dp</dimen>
+    <dimen name="confirm_dialog_content_padding">20dp</dimen>
+    <dimen name="confirm_dialog_title_size">16dp</dimen>
+    
+</resources>

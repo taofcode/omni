@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="payment_method_1">
+        <item>Manual Account</item>
+        <item>Manual Card</item>
+        <item>Cash</item>
+    </string-array>
+    <string-array name="payment_method">
+        <item>Manual Account</item>
+        <item>Manual Card</item>
+    </string-array>
+    <string-array name="payment_method_cash">
+        <item>Cash</item>
+    </string-array>
+    <string-array name="payment_method_manual_card">
+        <item>Manual Card</item>
+    </string-array>
+    <!-- <string-array name="payment_method_2"> -->
+    <!-- <item>Card swipe</item> -->
+    <!-- <item>Cash</item> -->
+    <!-- <item>Card Not Present</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="payment_method_3"> -->
+    <!-- <item>Card swipe</item> -->
+    <!-- <item>Card Not Present</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="verification_method"> -->
+    <!-- <item>Card swipe</item> -->
+    <!-- <item>PAN manually</item> -->
+    <!-- </string-array> -->
+    <string-array name="provider_values_array">
+        <item>$0.50</item>
+        <item>$1.00</item>
+        <item>$2.00</item>
+        <item>$5.00</item>
+        <item>$10.00</item>
+        <item>$15.00</item>
+        <item>$20.00</item>
+        <item>$50.00</item>
+    </string-array>
+    <string-array name="instant_banking_titles">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+        <item>Miss</item>
+    </string-array>
+</resources>

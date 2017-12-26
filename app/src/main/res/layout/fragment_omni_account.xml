@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fragment_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true" >
+
+
+
+    <ScrollView
+        android:id="@+id/scroll_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top_bar_container"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:id="@+id/scroll_element"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/content_scroll_vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/first_name_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Name"
+                    android:textColor="#fff" />
+
+                <EditText
+                    android:id="@+id/first_name_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/custom_edit_text"
+                    android:ems="10"
+                    android:textColor="#000"
+                    android:inputType="text"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/last_name_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Surname"
+                    android:textColor="#fff" />
+
+                <EditText
+                    android:id="@+id/last_name_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/custom_edit_text"
+                    android:ems="10"
+                    android:textColor="#000"
+                    android:inputType="text"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/national_id_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:height="20dp"
+                    android:text="ID Number"
+                    android:textColor="#fff" />
+
+                <EditText
+                    android:id="@+id/national_id_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/custom_edit_text"
+                    android:ems="10"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/msisdn_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autoSizeMinTextSize="@dimen/atms_branches_edit_text_margin_vertical"
+                    android:text="Phone Number"
+                    android:textColor="#fff" />
+
+                <EditText
+                    android:id="@+id/msisdn_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/custom_edit_text"
+                    android:ems="10"
+                    android:textColor="#000"
+                    android:inputType="numberSigned"
+                    android:numeric="integer|decimal"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/address_line_1_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Address"
+                    android:textColor="#fff" />
+
+                <EditText
+                    android:id="@+id/address_line_1_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/custom_edit_text"
+                    android:ems="10"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/card_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Card Number"
+                    android:textColor="#fff" />
+
+                <EditText
+                    android:id="@+id/card_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@mipmap/custom_edit_text"
+                    android:ems="10"
+                    android:textColor="#000"
+                    android:inputType="numberSigned"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/continue_button"
+                    style="@style/send_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="@string/continue_button" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

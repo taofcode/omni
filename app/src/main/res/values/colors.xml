@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- General -->
+    <color name="general_background_color">#420345</color>
+    <color name="general_divider_color">#4c283d42</color>
+
+    <!-- General text colors -->
+    <!-- <color name="general_text_color">#fbf7f7f7</color>-->
+    <color name="general_text_color">#000000</color>
+    <color name="general_edit_text_color">#000000</color>
+    <color name="edit_text_hint_color">#000000</color>
+    <color name="login_text_color">#0d0000</color>
+
+    <!-- Dialogs -->
+    <color name="dialog_background_color">#4CFFFFFF</color>
+    <color name="dialog_header_color">#77047b</color>
+    <color name="dialog_title_text_color">#FFFFFF</color>
+    <color name="dialog_body_text_color">#77047b</color>
+
+    <!-- List view -->
+    <color name="expandable_list_item_child_background">#20757575</color>
+    <color name="expandable_list_item_child_text_color">#f7f1efef</color>
+    <color name="expandable_list_item_child_text_color_clicked">#ed57bb</color>
+    <color name="list_item_clicked_text_color">#6e3656</color>
+    <color name="list_item_clicked_background">#ed6b0358</color>
+    <color name="list_background_landscape">#A0d6e2e8</color>
+
+    <!-- Action bar -->
+    <color name="actionbar_button_background_color">#540537</color>
+    <color name="actionbar_button_background_color_pressed">#fd5c033c</color>
+    <color name="actionbar_button_border_color">#9c0590</color>
+    <color name="actionbar_button_text_color">#FFFFFF</color>
+    <color name="action_bar_background_color">#ed6b0358</color>
+    <color name="action_bar_spinner_color">#FFFFFF</color>
+    <color name="action_bar_spinner_text_color">#77047b</color>
+
+    <!-- Button colors -->
+    <color name="button_background_color">#9c0590</color>
+    <color name="button_background_color_pressed">#9c0590</color>
+    <color name="button_border_color">#ed6b0358</color>
+
+    <!-- List item icon background color -->
+    <color name="list_item_icon_background">#FFFFFF</color>
+    <color name="list_view_divider">#ed6b0358</color>
+    <color name="list_view_child_item_background">#6e3656</color>
+    <color name="list_view_item_background_pressed">#ed6b0358</color>
+
+    <!-- Status bar (used only in OS 5 and above) -->
+    <color name="status_bar_splash_color">#6e3656</color>
+    <color name="status_bar_login_color">#6e3656</color>
+    <color name="status_bar_home_color">#6e3656</color>
+
+    <color name="light_grey">#878383</color>
+    <color name="light_white_30">#f4e2dddd</color>
+    <color name="dark_grey">#585b5b</color>
+
+</resources>

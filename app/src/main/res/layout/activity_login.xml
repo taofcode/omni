@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:gravity="top|center_horizontal" >
+    <RelativeLayout
+        android:id="@+id/top_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/top_bar_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/top_caption"
+            style="@style/fragment_top_caption_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/top_bar_icon"
+            android:text="Welcome to Omni Application"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/top_bar_icon"
+            android:background="@color/light_grey" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/msisdn_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="60dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+
+        <EditText
+            android:id="@+id/user_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="Enter Mobile Number"
+            android:inputType="number"
+            android:minWidth="42dp"
+            android:singleLine="true"
+            android:textColor="@color/general_edit_text_color"
+            android:textColorHint="@color/edit_text_hint_color"
+            android:textSize="@dimen/login_element_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pinHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msisdn_container"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/pin_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:hint="Enter PIN"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:minWidth="42dp"
+            android:singleLine="true"
+            android:textColor="@color/general_edit_text_color"
+            android:textColorHint="@color/edit_text_hint_color"
+            android:textSize="@dimen/login_element_text_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_below="@+id/pinHolder"
+        style="@style/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Sign In" />
+
+</RelativeLayout>
